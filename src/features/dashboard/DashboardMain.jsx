@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Box, useBreakpointValue, Text } from '@chakra-ui/react'
-import { AutomationHeader } from './AutomationHeader'
-import { StatCardsGrid } from './StatCardsGrid'
+import { AutomationHeader } from './components/dashboardHeader/AutomationHeader'
+import { StatCardsGrid } from './components/cards/StatCardsGrid'
 
 export function DashboardMain() {
   const [showMobileStats, setShowMobileStats] = useState(false)
